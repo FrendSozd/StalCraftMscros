@@ -1,0 +1,29 @@
+# Build artifacts
+*.exe
+*.build/
+*.dist/
+*.onefile-build/
+build/
+dist/
+dist_obfuscated/
+dist_final/
+build_temp/
+*.spec
+
+# Nuitka cache
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# License file (local)
+.scx_license
+
+# Crash reports
+*nuitka-crash-report.xml
